@@ -29,5 +29,7 @@ namespace ZombieParty.Models
 
         [ValidateNever] 
         public virtual List<HuntingLog> HuntingLogs { get; set; }
+        [ValidateNever]
+        public string Image { get; set; }
     }
 }
